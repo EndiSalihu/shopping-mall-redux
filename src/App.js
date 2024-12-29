@@ -14,6 +14,7 @@ function App() {
 
   useEffect(() => {
     dispatch(calculateCartTotals());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cartItems]);
 
   return (
